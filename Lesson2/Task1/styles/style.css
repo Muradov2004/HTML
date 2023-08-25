@@ -1,7 +1,8 @@
-* {
+html {
     font-family: Arial, Helveticas, sans-serif;
+    background: whitesmoke;
 }
 
-code {
-    background: whitesmoke;
+pre {
+    background: darkgray;
 }
