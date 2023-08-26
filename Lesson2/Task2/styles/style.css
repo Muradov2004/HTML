@@ -13,3 +13,8 @@ h2 {
 mark {
     background: #f8a1ae;
 }
+
+em {
+    color: darkred;
+    font-weight: bold;
+}
