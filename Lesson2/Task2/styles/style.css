@@ -1,3 +1,15 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h2 {
     text-align: center;
+}
+
+.equation {
+    text-align: center;
+}
+
+mark {
+    background: #f8a1ae;
 }
