@@ -1,0 +1,156 @@
+body {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#group {
+    list-style: url("images/football.png");
+    color: white;
+    font-size: 35px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: orange;
+}
+
+#arg {
+    list-style: url("images/ARG.png");
+}
+
+#aus {
+    list-style: url("images/AUS.png");
+}
+
+#bel {
+    list-style: url("images/BEL.png");
+}
+
+#bra {
+    list-style: url("images/BRA.png");
+}
+
+#can {
+    list-style: url("images/CAN.png");
+}
+
+#cmr {
+    list-style: url("images/CMR.png");
+}
+
+#crc {
+    list-style: url("images/CRC.png");
+}
+
+#cro {
+    list-style: url("images/CRO.png");
+}
+
+#den {
+    list-style: url("images/DEN.png");
+}
+
+#ecu {
+    list-style: url("images/ECU.png");
+}
+
+#eng {
+    list-style: url("images/ENG.png");
+}
+
+#esp {
+    list-style: url("images/ESP.png");
+}
+
+#fra {
+    list-style: url("images/FRA.png");
+}
+
+#ger {
+    list-style: url("images/GER.png");
+}
+
+#gha {
+    list-style: url("images/GHA.png");
+}
+
+#irn {
+    list-style: url("images/IRN.png");
+}
+
+#jpn {
+    list-style: url("images/JPN.png");
+}
+
+#kor {
+    list-style: url("images/KOR.png");
+}
+
+#ksa {
+    list-style: url("images/KSA.png");
+}
+
+#mar {
+    list-style: url("images/MAR.png");
+}
+
+#mex {
+    list-style: url("images/MEX.png");
+}
+
+#ned {
+    list-style: url("images/NED.png");
+}
+
+#pol {
+    list-style: url("images/POL.png");
+}
+
+#por {
+    list-style: url("images/POR.png");
+}
+
+#qat {
+    list-style: url("images/QAT.png");
+}
+
+#sen {
+    list-style: url("images/SEN.png");
+}
+
+#srb {
+    list-style: url("images/SRB.png");
+}
+
+#sui {
+    list-style: url("images/SUI.png");
+}
+
+#tun {
+    list-style: url("images/TUN.png");
+}
+
+#uru {
+    list-style: url("images/URU.png");
+}
+
+#usa {
+    list-style: url("images/USA.png");
+}
+
+#wal {
+    list-style: url("images/WAL.png");
+}
+
