@@ -1,0 +1,88 @@
+#second-tick {
+    position: absolute;
+    left: 245px;
+    top: 20px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 230px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    animation-name: rotate-tick;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform: rotate(0deg);
+    transform-origin: 50% 100%;
+    animation-timing-function: linear;
+}
+
+#minute-tick {
+    position: absolute;
+    left: 245px;
+    top: 30px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 220px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    animation-name: rotate-tick;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform: rotate(0deg);
+    transform-origin: 50% 100%;
+    animation-timing-function: linear;
+}
+
+#hour-tick {
+    position: absolute;
+    left: 245px;
+    top: 120px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 130px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    animation-name: rotate-tick;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    transform: rotate(0deg);
+    transform-origin: 50% 100%;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate-tick {
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#center-clock {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clock-circle {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
+}
