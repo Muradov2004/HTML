@@ -1,0 +1,19 @@
+#edit {
+    list-style-image: url("images/office-material.png");
+}
+
+#fav {
+    list-style-image: url("images/heart.png");
+}
+
+#his {
+    list-style-image: url("images/clock.png");
+}
+
+#sec {
+    list-style-image: url("images/cyber-security.png");
+}
+
+#set {
+    list-style-image: url("images/gear.png");
+}
