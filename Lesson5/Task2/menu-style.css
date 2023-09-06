@@ -1,19 +1,56 @@
-#edit {
-    list-style-image: url("images/office-material.png");
+ul {
+    list-style: none;
+    padding: 0 15px;
 }
 
-#fav {
-    list-style-image: url("images/heart.png");
+ul li {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
-#his {
-    list-style-image: url("images/clock.png");
+ul li img {
+    width: 30px;
 }
 
-#sec {
-    list-style-image: url("images/cyber-security.png");
+ul li p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+    display: none;
 }
 
-#set {
-    list-style-image: url("images/gear.png");
+ul li p#menu {
+    display: block;
+}
+
+.menu {
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background-color: rgba(0, 252, 214, 0.3);
+    backdrop-filter: blur(100px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: width 0.8s;
+}
+
+.menu:hover {
+    width: 250px;
+}
+
+.menu:hover ul li img {
+    margin-right: 10px;
+}
+
+.menu:hover ul li p {
+    display: inline-block;
 }
