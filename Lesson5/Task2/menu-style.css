@@ -4,7 +4,7 @@ ul {
 }
 
 ul li {
-    margin: 30px 0;
+    margin: 60px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,10 +24,6 @@ ul li p {
     display: none;
 }
 
-ul li p#menu {
-    display: block;
-}
-
 .menu {
     width: 80px;
     height: 100%;
@@ -45,6 +41,10 @@ ul li p#menu {
 
 .menu:hover {
     width: 250px;
+}
+
+.menu:hover ul li {
+    margin: 10px 0;
 }
 
 .menu:hover ul li img {
