@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: row;
     padding-right: 10px;
+
     & p {
         margin: 10px;
     }
@@ -37,6 +38,7 @@ body {
     grid-template-areas:
             'a b b'
             'c b b';
+
     & img {
         grid-area: b;
         left: 0;
@@ -91,18 +93,41 @@ body {
     font-weight: 300;
 }
 
-.schedule{
+.schedule {
     display: flex;
     flex-direction: row;
-    justify-content:space-around ;
+    justify-content: space-around;
 }
 
-.clock{
+.clock {
     font-family: Roboto, serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
 }
 
+.format {
+    margin-left: 50px;
+}
 
+.format-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.format-container div p:first-child {
+    color: #1E4681;
+    font-family: Roboto, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.format-container div p:nth-child(2) {
+    width: 80%;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
